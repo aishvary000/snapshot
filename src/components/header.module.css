@@ -1,0 +1,19 @@
+.header--title{
+    background-color: rgb(62, 4, 62);
+    color: white;
+    font-size: 3rem;
+    padding:1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+  }
+  .name{
+    width: 80%;
+    text-align: center;
+    flex: 1;
+  }
+  .img{
+    color:white;
+    text-align: center;
+  }
