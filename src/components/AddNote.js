@@ -10,7 +10,8 @@ const AddNote = (props) => {
         setTitle(event.target.value);
     }
     const dateChangeHandler = (event) => {
-        setDate(event.target.value);
+        console.log(event);
+        setDate(event);
     }
     const addNoteHandler = () => {
         var id = "id" + Math.random().toString(16).slice(2);

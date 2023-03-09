@@ -1,8 +1,10 @@
 import classes from './EditNote.module.css';
-import { useParams } from "react-router-dom";
-export default function EditNote()
+import { useLocation } from "react-router-dom";
+export default function EditNote({route,navigation})
 {
-    const params = useParams();
-    console.log(params.id);
+    const location = useLocation();
+
+    console.log(location.state.note);
+    // console.log(title+":"+date);
 
 }
