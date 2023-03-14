@@ -1,28 +1,3 @@
-.edit-note-form{
-    /* width: 50%; */
-    text-align: center;
-    width: 50%;
-    padding:20rem;
-    margin: 2rem auto;
-    background-color: white;
-    border-radius: 4rem;
-    
-}
-.edit-note-form--title{
-    margin-bottom: 1rem;
-}
-.edit-note-form__paragraph
-{
-    /* display: inline-block; */
-    /* margin-right: 1.5rem; */
-    padding:1rem 0;
-    font-size: 2rem;
-    font-weight: bold;
-    color:black;
-    text-align: start;
-    box-sizing: border-box;
-   
-}
 .btn{
     display: inline-block;
     padding:2rem;
@@ -34,6 +9,8 @@
     font-size: 1.5rem;
     box-shadow: 0 1.5rem 5rem rgba(black,0.5);
     transition: all 0.2s;
+    margin-bottom: 3rem;
+    width: 25%;
 
 }
 .btn:hover{
@@ -47,4 +24,8 @@
     box-shadow: 0 1rem 2rem rgba(black,0.15);
     transform: translateY(0);
 
+}
+
+.container{
+    text-align: center;
 }

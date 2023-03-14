@@ -4,24 +4,44 @@
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    height: 25rem;
+    height: max-content;
     background-color: rgb(62, 4, 62);
     border-radius: 2rem;
     padding: 2rem;
     color: white;
     font-size: 2rem;
+    box-sizing: border-box;
+    word-break: break-all;
 }
 .title{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 2rem;
+    flex:1;
+}
+.description{
+    display: flex;
+    flex:3;
+    min-width: 0;
+    margin:2rem 0;
+    /* overflow: visible;  /* NEW */
+    /* min-width: 0;   */
+/*     
+    height: 100%; */
+   
+}
+.para{
+   
+    height: 100%;
+   
 }
 .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 2rem;
+    flex:1;
 }
 .footer img{
     height:3rem;
